@@ -13,19 +13,20 @@ I wan't to provide a really simplistic way of creating a web page
 Example
 =====
 
-    # First, import lolo
-    import abbrev
+```python
+# First, import abbrev
+import abbrev
 
-    # Define your web app
-    class ExampleApp(abbrev.Form):
+# Define your web app, as a class
+class ExampleApp(abbrev.Form):
     def __init__(self):
         self.name = abbrev.Fields.text("Name", required = True)
         self.password = abbrev.Fields.password("Password", required = True)
         self.address = abbrev.Fields.password("Address")
-		
-    # Run it!
-    ExampleApp.run()
-
+	
+# Run it!
+ExampleApp.run()
+```
 
 That's it?
 ==========
