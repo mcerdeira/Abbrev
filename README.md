@@ -31,4 +31,4 @@ ExampleApp.run()
 That's it?
 ==========
 
-Yes. You may think that this is crap, or stupid, but, the main idea is to provide a simple and quick way of creating web pages with basic interactions.
+Yes. The main idea is to provide a simple and quick way of creating single page web pages with basic interactions.
